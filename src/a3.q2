@@ -1,0 +1,4 @@
+select distinct country, count(*)
+from results where tournament = 'FIFA World Cup'
+group by country
+order by count(*) desc ,country;

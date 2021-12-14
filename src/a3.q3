@@ -1,0 +1,4 @@
+select distinct tournament 
+from results 
+where home_team = 'Greece' or away_team = 'Greece'
+Order by tournament;

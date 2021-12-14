@@ -1,0 +1,5 @@
+select winner, count(*)
+from shootouts
+group by winner
+order by count(*) desc
+limit 1;
